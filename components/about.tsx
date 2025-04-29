@@ -11,7 +11,7 @@ export default function About() {
         <div className="flex flex-col md:flex-row items-center gap-12">
           <div className="w-full md:w-1/2 flex justify-center">
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary/20">
-              <Image src="/me.jpg" alt="Andrés Huelmo" fill className="object-cover" />
+              <Image src="/me.png" alt="Andrés Huelmo" fill className="object-cover" />
             </div>
           </div>
 
