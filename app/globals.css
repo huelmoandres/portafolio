@@ -10,8 +10,15 @@
     --card-foreground: 222.2 84% 4.9%;
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
-    --primary: 221.2 83.2% 53.3%;
+
+    /* Colores base para el gradiente */
+    --gradient-start: 230 60% 50%; /* Azul profundo */
+    --gradient-end: 262 83% 58%; /* Púrpura vibrante */
+
+    /* Color primario (para compatibilidad) */
+    --primary: 262 83% 58%;
     --primary-foreground: 210 40% 98%;
+
     --secondary: 210 40% 96.1%;
     --secondary-foreground: 222.2 47.4% 11.2%;
     --muted: 210 40% 96.1%;
@@ -22,7 +29,7 @@
     --destructive-foreground: 210 40% 98%;
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 221.2 83.2% 53.3%;
+    --ring: 262 83% 58%;
     --radius: 0.5rem;
   }
 
@@ -33,8 +40,15 @@
     --card-foreground: 210 40% 98%;
     --popover: 222.2 84% 4.9%;
     --popover-foreground: 210 40% 98%;
-    --primary: 217.2 91.2% 59.8%;
+
+    /* Colores base para el gradiente en modo oscuro */
+    --gradient-start: 230 60% 60%; /* Azul más brillante */
+    --gradient-end: 262 83% 68%; /* Púrpura más brillante */
+
+    /* Color primario (para compatibilidad) */
+    --primary: 262 83% 68%;
     --primary-foreground: 222.2 47.4% 11.2%;
+
     --secondary: 217.2 32.6% 17.5%;
     --secondary-foreground: 210 40% 98%;
     --muted: 217.2 32.6% 17.5%;
@@ -45,7 +59,7 @@
     --destructive-foreground: 210 40% 98%;
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
-    --ring: 224.3 76.3% 48%;
+    --ring: 262 83% 68%;
   }
 }
 
@@ -59,4 +73,11 @@
   html {
     scroll-behavior: smooth;
   }
+}
+
+/* Definimos colores personalizados para usar directamente en los componentes */
+:root {
+  --blue-primary: #3a5ecf;
+  --purple-primary: #a855f7;
+  --purple-hover: #9333ea;
 }

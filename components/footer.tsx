@@ -1,8 +1,16 @@
 import Link from "next/link"
-import { Linkedin, Heart, Phone } from "lucide-react"
+import { Linkedin, MessageSquare } from "lucide-react"
 import { CONTACT_INFO } from "@/lib/constants"
+import type { Dictionary } from "@/lib/dictionary"
+import type { Locale } from "@/i18n-config"
 
-export default function Footer() {
+export default function Footer({
+  dictionary,
+  lang,
+}: {
+  dictionary: Dictionary
+  lang: Locale
+}) {
   const currentYear = new Date().getFullYear()
 
   return (
@@ -10,13 +18,13 @@ export default function Footer() {
       <div className="container px-4 mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
-            <Link href="#home" className="text-xl font-bold">
+            <Link
+              href={`/${lang}#home`}
+              className="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#3a5ecf] to-[#a855f7]"
+            >
               Andrés Huelmo
             </Link>
-            <p className="text-muted-foreground mt-2 max-w-md">
-              Desarrollador web especializado en crear experiencias digitales excepcionales y soluciones web innovadoras
-              para empresas y organizaciones.
-            </p>
+            <p className="text-muted-foreground mt-2 max-w-md">{dictionary.footer.description}</p>
           </div>
 
           <div className="flex flex-col items-center md:items-end">
@@ -25,7 +33,7 @@ export default function Footer() {
                 href={CONTACT_INFO.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-primary transition-colors"
+                className="text-foreground hover:text-[#3a5ecf] transition-all duration-300"
               >
                 <Linkedin className="h-5 w-5" />
                 <span className="sr-only">LinkedIn</span>
@@ -34,15 +42,15 @@ export default function Footer() {
                 href={CONTACT_INFO.whatsappLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-primary transition-colors"
+                className="text-foreground hover:text-[#a855f7] transition-all duration-300"
               >
-                <Phone className="h-5 w-5" />
+                <MessageSquare className="h-5 w-5" />
                 <span className="sr-only">WhatsApp</span>
               </Link>
             </div>
 
-            <p className="text-sm text-muted-foreground flex items-center">
-              Hecho con <Heart className="h-4 w-4 text-red-500 mx-1" /> © {currentYear} Andrés Huelmo
+            <p className="text-sm text-muted-foreground">
+              © {currentYear} Andrés Huelmo - {dictionary.footer.allRights}
             </p>
           </div>
         </div>

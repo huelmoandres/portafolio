@@ -1,0 +1,107 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About me",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact",
+    "downloadCV": "Download CV"
+  },
+  "hero": {
+    "greeting": "Hello! My name is",
+    "role": "Web Developer & Designer",
+    "description": "I am a passionate web developer specialized in creating exceptional digital experiences. I transform ideas into innovative and functional web solutions, from corporate websites to custom management systems.",
+    "viewProjects": "View Projects",
+    "contactMe": "Contact Me",
+    "scrollDown": "Scroll Down"
+  },
+  "about": {
+    "title": "About Me",
+    "paragraph1": "I am a web developer with experience in creating modern and responsive web applications. My passion is building digital solutions that not only look good but also solve real problems for my clients.",
+    "paragraph2": "I specialize in full-stack web development, creating both corporate websites and custom management systems. My approach focuses on creating intuitive and functional user experiences that help businesses achieve their goals.",
+    "specialty": "Specialty",
+    "specialtyDesc": "Full-Stack Web Development",
+    "location": "Location",
+    "availability": "Availability",
+    "availabilityDesc": "Freelance / Full-time",
+    "downloadCV": "Download CV"
+  },
+  "skills": {
+    "title": "My Skills",
+    "description": "These are the technologies and skills I work with to create exceptional digital solutions.",
+    "frontend": {
+      "title": "Frontend Development",
+      "description": "Creation of modern and responsive interfaces with React, Next.js and Tailwind CSS."
+    },
+    "backend": {
+      "title": "Backend Development",
+      "description": "Building APIs and services with Node.js, Express and SQL/NoSQL databases."
+    },
+    "management": {
+      "title": "Management Systems",
+      "description": "Development of custom applications for business administration and inventory."
+    },
+    "ecommerce": {
+      "title": "E-commerce",
+      "description": "Implementation of online stores with payment systems and product management."
+    },
+    "webdesign": {
+      "title": "Web Design",
+      "description": "Creation of intuitive interfaces and attractive user experiences."
+    },
+    "versioncontrol": {
+      "title": "Version Control",
+      "description": "Code management with Git, GitHub and team work methodologies."
+    },
+    "programming": {
+      "title": "Programming Languages",
+      "description": "JavaScript, TypeScript, HTML, CSS, PHP and more."
+    },
+    "deployment": {
+      "title": "Deployment & Hosting",
+      "description": "Implementation and deployment of applications on servers and cloud services."
+    }
+  },
+  "projects": {
+    "title": "My Projects",
+    "description": "Here is a selection of projects I have worked on. Each one represents different skills and solutions for different clients.",
+    "viewSite": "View Site",
+    "projectTitles": {
+      "eire": "EIRE - Eastern Region Integral School",
+      "hawkers": "Hawkers Store",
+      "amv": "AMV Store Management System",
+      "portfolio": "My Personal Portfolio"
+    },
+    "projectDescriptions": {
+      "eire": "Educational website for the Eastern Region Integral School, with informative sections and access to virtual classrooms.",
+      "hawkers": "Online store for the Hawkers sunglasses brand, with product catalog and shopping system.",
+      "amv": "Custom management system for AMV Store, with inventory, sales and customer management.",
+      "portfolio": "Personal website showcasing my projects and skills as a web developer."
+    }
+  },
+  "contact": {
+    "title": "Contact Me",
+    "description": "Do you have a project in mind or need a custom digital solution? Fill out the form below or contact me directly.",
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "sending": "Sending...",
+    "send": "Send Message",
+    "success": "Message sent successfully! I will get back to you soon.",
+    "error": "There was an error sending your message. Please try again.",
+    "contactInfo": "Contact Information",
+    "location": "Location",
+    "clickToChat": "Click to start a conversation",
+    "socialNetworks": "Social Networks"
+  },
+  "footer": {
+    "description": "Web developer specialized in creating exceptional digital experiences and innovative web solutions for companies and organizations.",
+    "madeWith": "Made with",
+    "allRights": "All rights reserved"
+  },
+  "languageSelector": {
+    "en": "English",
+    "es": "Spanish"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "navigation": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "contact": "Contacto",
+    "downloadCV": "Descargar CV"
+  },
+  "hero": {
+    "greeting": "¡Hola! Mi nombre es",
+    "role": "Desarrollador Web & Diseñador",
+    "description": "Soy un apasionado desarrollador web especializado en crear experiencias digitales excepcionales. Transformo ideas en soluciones web innovadoras y funcionales, desde sitios web corporativos hasta sistemas de gestión personalizados.",
+    "viewProjects": "Ver Proyectos",
+    "contactMe": "Contáctame",
+    "scrollDown": "Desplázate hacia abajo"
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "paragraph1": "Soy un desarrollador web con experiencia en la creación de aplicaciones web modernas y responsivas. Mi pasión es construir soluciones digitales que no solo se vean bien, sino que también resuelvan problemas reales para mis clientes.",
+    "paragraph2": "Me especializo en desarrollo web full-stack, creando tanto sitios web corporativos como sistemas de gestión personalizados. Mi enfoque se centra en crear experiencias de usuario intuitivas y funcionales que ayuden a las empresas a alcanzar sus objetivos.",
+    "specialty": "Especialidad",
+    "specialtyDesc": "Desarrollo Web Full-Stack",
+    "location": "Ubicación",
+    "availability": "Disponibilidad",
+    "availabilityDesc": "Freelance / Tiempo Completo",
+    "downloadCV": "Descargar CV"
+  },
+  "skills": {
+    "title": "Mis Habilidades",
+    "description": "Estas son las tecnologías y habilidades con las que trabajo para crear soluciones digitales excepcionales.",
+    "frontend": {
+      "title": "Desarrollo Frontend",
+      "description": "Creación de interfaces modernas y responsivas con React, Next.js y Tailwind CSS."
+    },
+    "backend": {
+      "title": "Desarrollo Backend",
+      "description": "Construcción de APIs y servicios con Node.js, Express y bases de datos SQL/NoSQL."
+    },
+    "management": {
+      "title": "Sistemas de Gestión",
+      "description": "Desarrollo de aplicaciones personalizadas para administración de negocios e inventario."
+    },
+    "ecommerce": {
+      "title": "E-commerce",
+      "description": "Implementación de tiendas en línea con sistemas de pago y gestión de productos."
+    },
+    "webdesign": {
+      "title": "Diseño Web",
+      "description": "Creación de interfaces intuitivas y experiencias de usuario atractivas."
+    },
+    "versioncontrol": {
+      "title": "Control de Versiones",
+      "description": "Gestión de código con Git, GitHub y metodologías de trabajo en equipo."
+    },
+    "programming": {
+      "title": "Lenguajes de Programación",
+      "description": "JavaScript, TypeScript, HTML, CSS, PHP y más."
+    },
+    "deployment": {
+      "title": "Despliegue y Hosting",
+      "description": "Implementación y despliegue de aplicaciones en servidores y servicios en la nube."
+    }
+  },
+  "projects": {
+    "title": "Mis Proyectos",
+    "description": "Aquí hay una selección de proyectos en los que he trabajado. Cada uno representa diferentes habilidades y soluciones para distintos clientes.",
+    "viewSite": "Ver Sitio",
+    "projectTitles": {
+      "eire": "EIRE - Escuela Integral Región Este",
+      "hawkers": "Hawkers Store",
+      "amv": "Sistema de Gestión AMV Store",
+      "portfolio": "Mi Portafolio Personal"
+    },
+    "projectDescriptions": {
+      "eire": "Sitio web educativo para la Escuela Integral Región Este, con secciones informativas y acceso a aulas virtuales.",
+      "hawkers": "Tienda en línea para la marca de lentes de sol Hawkers, con catálogo de productos y sistema de compras.",
+      "amv": "Sistema de administración personalizado para AMV Store, con gestión de inventario, ventas y clientes.",
+      "portfolio": "Sitio web personal mostrando mis proyectos y habilidades como desarrollador web."
+    }
+  },
+  "contact": {
+    "title": "Contáctame",
+    "description": "¿Tienes un proyecto en mente o necesitas una solución digital personalizada? Completa el formulario a continuación o contáctame directamente.",
+    "name": "Nombre",
+    "email": "Email",
+    "subject": "Asunto",
+    "message": "Mensaje",
+    "sending": "Enviando...",
+    "send": "Enviar Mensaje",
+    "success": "¡Mensaje enviado con éxito! Me pondré en contacto contigo pronto.",
+    "error": "Hubo un error al enviar tu mensaje. Por favor, intenta de nuevo.",
+    "contactInfo": "Información de Contacto",
+    "location": "Ubicación",
+    "clickToChat": "Haz clic para iniciar una conversación",
+    "socialNetworks": "Redes Sociales"
+  },
+  "footer": {
+    "description": "Desarrollador web especializado en crear experiencias digitales excepcionales y soluciones web innovadoras para empresas y organizaciones.",
+    "madeWith": "Hecho con",
+    "allRights": "Todos los derechos reservados"
+  },
+  "languageSelector": {
+    "en": "Inglés",
+    "es": "Español"
+  }
+}
