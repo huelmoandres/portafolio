@@ -70,13 +70,15 @@
       "eire": "EIRE - Escuela Integral Región Este",
       "hawkers": "Hawkers Store",
       "amv": "Sistema de Gestión AMV Store",
-      "portfolio": "Mi Portafolio Personal"
+      "portfolio": "Mi Portafolio Personal",
+      "charruashop": "CharruaShop - eCommerce"
     },
     "projectDescriptions": {
       "eire": "Sitio web educativo para la Escuela Integral Región Este, con secciones informativas y acceso a aulas virtuales.",
       "hawkers": "Tienda en línea para la marca de lentes de sol Hawkers, con catálogo de productos y sistema de compras.",
       "amv": "Sistema de administración personalizado para AMV Store, con gestión de inventario, ventas y clientes.",
-      "portfolio": "Sitio web personal mostrando mis proyectos y habilidades como desarrollador web."
+      "portfolio": "Sitio web personal mostrando mis proyectos y habilidades como desarrollador web.",
+      "charruashop": "Charrua Shop es una tienda online desarrollada en Shopify, pensada para ofrecer una experiencia de compra simple, moderna y adaptable a cualquier dispositivo."
     }
   },
   "contact": {

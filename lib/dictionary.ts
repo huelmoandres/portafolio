@@ -75,12 +75,14 @@ export type Dictionary = {
       hawkers: string
       amv: string
       portfolio: string
+      charruashop: string
     }
     projectDescriptions: {
       eire: string
       hawkers: string
       amv: string
       portfolio: string
+      charruashop: string
     }
   }
   contact: {

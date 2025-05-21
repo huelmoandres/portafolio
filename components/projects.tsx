@@ -10,7 +10,7 @@ export default function Projects({
   dictionary: Dictionary
 }) {
   // Mapeo de proyectos a claves de traducción
-  const projectKeys = ["eire", "hawkers", "amv", "portfolio"]
+  const projectKeys = ["hawkers", "charruashop", "amv", "eire", "portfolio"]
 
   return (
     <section id="projects" className="py-20 bg-muted/30">
